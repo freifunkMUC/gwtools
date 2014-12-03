@@ -24,7 +24,7 @@ NEW_STATE=off
 fi
 
 # Turn off if V4 Connectivity is broken
-if [ "$providerip" = "" ]
+if [ "$RESULT" == "" ]
 then
 NEW_STATE=off
 fi
